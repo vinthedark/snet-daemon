@@ -16,5 +16,5 @@ go install ./protoc-gen-go
 popd
 
 go run resources/installBlockchainDependencies/main.go
-go generate ./...
+go generate -v ./...
 popd
